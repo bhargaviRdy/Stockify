@@ -1,37 +1,37 @@
-import React, {Component} from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
-import Home from '../containers/screens/Home';
-import Camera from '../containers/screens/Camera';
-import {NavigationContainer} from '@react-navigation/native';
+import React, { Component } from 'react'
+import { createStackNavigator } from '@react-navigation/stack'
+import SignIn from '../src/containers/Signin'
+// import Camera from '../containers/screens/Camera';
+import { NavigationContainer } from '@react-navigation/native'
 
-const SCREEN = 1;
+const SCREEN = 1
 
-let Stack = createStackNavigator();
+let Stack = createStackNavigator()
 
 let screens = (function () {
   let screen = [
-    <Stack.Screen name={'SignIn'} component={SignIn} />,
-    <Stack.Screen name={'Home'} component={Home} />,
-  ];
+    <Stack.Screen name={'SignIn'} component={SignIn} />
+    // <Stack.Screen name={'Home'} component={Home} />,
+  ]
 
-  return screen;
-})();
+  return screen
+})()
 
 const mainScreen = (
-  <NavigationContainer initialRouteName="Home">
+  <NavigationContainer initialRouteName="SignIn">
     <Stack.Navigator
       screenOptions={{
-        gestureEnabled: false,
+        gestureEnabled: true
       }}>
       {screens}
     </Stack.Navigator>
   </NavigationContainer>
-);
+)
 
 class RootRouter extends Component {
   render() {
-    return mainScreen;
+    return mainScreen
   }
 }
 
-export default RootRouter;
+export default RootRouter
