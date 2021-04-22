@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "480217212993",
+    "project_id": "striped-buckeye-311502",
+    "storage_bucket": "striped-buckeye-311502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480217212993:android:3538fbc8fb8bfc6504fec0",
+        "android_client_info": {
+          "package_name": "com.stockify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480217212993-jsbjhjnflh6rsmetvd2atahdkugs1ceo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh61H3PC5a_CcevaEBmRnEIZSz88HXOP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480217212993-jsbjhjnflh6rsmetvd2atahdkugs1ceo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "480217212993-fctoqstaa1gjc8e9epldne8e9hnu1a8a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Stockify"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
