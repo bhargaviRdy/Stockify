@@ -46,7 +46,8 @@ class SignIn extends Component {
                     cancelLabel: 'Cancel'
                   })
                     .then((authenticate) => {
-                      if (authenticate.success) alert('passed')
+                      if (authenticate.success)
+                        this.props.navigation.navigate('Home')
                     })
                     .catch((error) => {})
                 }
