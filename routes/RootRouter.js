@@ -28,7 +28,7 @@ let screens = (function () {
         // headerRight: () => this.props.navigation.pop()
       }}
     />,
-    <Stack.Screen name={'Chart'} component={Chart} />
+    <Stack.Screen name={'Charts'} component={Chart} />
   ]
 
   return screen

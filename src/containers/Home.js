@@ -12,13 +12,13 @@ class Home extends Component {
       <View style={{ flex: 1 }}>
         <Button
           onPress={() =>
-            this.props.navigation.navigate('Chart', { name: 'Apple' })
+            this.props.navigation.navigate('Charts', { name: 'Apple' })
           }>
           Apple Inc.
         </Button>
         <Button
           onPress={() =>
-            this.props.navigation.navigate('Chart', { name: 'Google' })
+            this.props.navigation.navigate('Charts', { name: 'Google' })
           }>
           Google
         </Button>
